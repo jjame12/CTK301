@@ -1,0 +1,90 @@
+body{
+
+}
+#wrapper {
+  width: 960px;
+  border: 1px solid #0000ff;
+  background-color: #ffffff;
+  margin: 1em auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+header{
+  color: white;
+  background-color: blue;
+  grid-column: span 12;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  nav{
+    background-color: blue;
+    grid-column: span 12;
+}
+
+nav li {
+
+  padding: 0;
+  margin: 0;
+  background-color: #cc0000;
+  color: #ffffff;
+  display:inline-block;
+  width: 240px;
+}
+
+nav li a {
+  color: #ffffff;
+  padding: 10px;
+  background-color: blue;
+  display: block;
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+
+}
+h2{
+  color: blue;
+  border-bottom: 2px solid blue;
+
+}
+nav li a:hover {
+  background-color: lightblue;
+   background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+main{
+
+  grid-column: span 12;
+  padding: 10px;
+}
+  .floatimage {
+  width: 400px;
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 2px;
+  border: 3px solid blue;
+}
+.floatimage2{
+  width: 400px;
+  float: right;
+  margin: 0 20px 20px 0;
+  padding: 2px;
+  border: 2px solid blue;
+}
+.floatimage3{
+  width: 245px;
+  margin: 0 20px 20px 0;
+  padding: 0;
+  border: 2px solid blue;
+}
+.turnred{
+  color:red;
+}
+  footer {
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  grid-column: span 12;
+  clear:both;}
