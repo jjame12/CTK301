@@ -1,0 +1,83 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+
+header{
+  background-color: #0BB2F0;
+  color: white;
+  grid-column: span 12;
+  font-family: helvetica, sans-serif;
+  font-size: 48;
+text-transform: uppercase;
+padding-left: 24px;
+margin-bottom: 24px;
+}
+
+#mainimg{
+  grid-column: span 8;
+}
+
+nav{
+  grid-column: span 4;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  margin-bottom: 20px;
+}
+nav li a{
+  background-color: #0BB2F0;
+  display: block;
+  color: white;
+  font-family: helvetica, sans-serif;
+  font-size: 48;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 24px;
+}
+
+
+main{
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+section h2{
+font-family: helvetica, sans-serif;
+font-size: 36px;
+font-weight: bold;
+text-transform: uppercase;
+border-bottom: 3px solid black;
+margin-bottom: 0px;
+
+}
+
+section{
+  grid-column: span 4;
+}
+
+footer{
+  background-color: #0BB2F0;
+  grid-column:  span 12;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  padding: 24px;
+}
