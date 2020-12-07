@@ -11,8 +11,11 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  background-image: url(nails.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 500px;
 }
-
 
 header{
   background-color: #0BB2F0;
@@ -24,8 +27,6 @@ text-transform: uppercase;
 padding-left: 24px;
 margin-bottom: 24px;
 text-align: center;
-
-
 }
 
 #mainimg{
@@ -37,7 +38,7 @@ h1{
 }
 
 nav{
-  grid-column: span 4;
+  grid-column: span 2;
 }
 nav ul {
   list-style: none;
